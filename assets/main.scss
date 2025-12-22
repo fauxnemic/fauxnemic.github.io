@@ -1,0 +1,154 @@
+---
+# Only the main Sass file needs front matter (the dashes are important!)
+---
+
+/* Import Minima's base styles */
+@import "minima";
+
+/* ===========================
+   Dark / Charcoal Overrides
+   =========================== */
+
+:root {
+  --bg: #181a1b;          /* charcoal background */
+  --bg-alt: #1f2223;      /* slightly lighter panels */
+  --text: #e6e6e6;        /* main text */
+  --muted: #9aa0a6;       /* secondary text */
+  --link: #8ab4f8;        /* soft blue */
+  --link-hover: #aecbfa;
+  --border: #2a2e30;
+  --code-bg: #202324;
+}
+
+/* Page background */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Header & footer */
+.site-header,
+.site-footer {
+  background-color: var(--bg-alt);
+  border-color: var(--border);
+}
+
+/* Titles */
+.site-title,
+.post-title,
+.page-heading {
+  color: #eeeeee;
+}
+
+/* Links */
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Navigation */
+.site-nav .page-link {
+  color: var(--text);
+}
+
+.site-nav .page-link:hover {
+  color: var(--link-hover);
+}
+
+/* Post list (home page) */
+.post-list > li {
+  border-bottom: 1px solid var(--border);
+}
+
+/* Meta text (dates, categories) */
+.post-meta {
+  color: var(--muted);
+}
+
+/* Code blocks */
+pre,
+code {
+  background-color: var(--code-bg);
+  color: var(--text);
+}
+
+pre {
+  border: 1px solid var(--border);
+}
+
+/* Inline code */
+:not(pre) > code {
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+/* Blockquotes */
+blockquote {
+  color: var(--muted);
+  border-left: 4px solid var(--border);
+  background-color: var(--bg-alt);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+}
+
+/* Horizontal rules */
+hr {
+  border-top: 1px solid var(--border);
+}
+
+/* ===========================
+   Long-form readability tweaks
+   =========================== */
+
+/* Increase line height for easier reading */
+body {
+  line-height: 1.7; /* default was ~1.5 */
+}
+
+/* Max content width and center text block */
+.container,
+.site-main {
+  max-width: 720px; /* comfortable for reading */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Add spacing between paragraphs */
+p {
+  margin-bottom: 1.25em;
+}
+
+/* Slightly larger font for body text */
+body,
+.page-content {
+  font-size: 1.05rem; /* a bit bigger than default */
+}
+
+/* Code block tweaks */
+pre,
+code {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+/* Blockquote readability */
+blockquote {
+  padding: 0.5em 1em;
+  font-style: italic;
+}
+
