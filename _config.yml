@@ -4,12 +4,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FauxNeme - Musing on language, AI, cognition, and all that
+title: FauxNeme - Rants and musings on AI, cognitive science, philosophy, and maybe even fun stuff sometimes.
 email: fauxnemic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to marshall my thoughts about language & linguistics, AI, cognition,
+  A place to marshall my thoughts about AI, cognition, language & linguistics,
   and philosophy of these things. Also to occasionally rant about things I
-  see online that I think are Wrong(tm)
+  see online that I think are especially Right or Wrong(tm)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fauxnemic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fauxnemic
