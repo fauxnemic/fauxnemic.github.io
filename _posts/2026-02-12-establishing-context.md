@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Establishing context"
+title:  "bona fides"
 date:   2026-02-12 20:15:18 -0800
 ---
 
