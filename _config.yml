@@ -4,7 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FauxNeme - AI, cogsci, linguistics, and other vices
+title: fauxnemics, fauxnetics, AI, cogsci, and other vices
+author: FauxNeme
 email: fauxnemic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A place to marshall my thoughts about AI, cognition, language & linguistics,
