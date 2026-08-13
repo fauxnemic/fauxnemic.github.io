@@ -27,7 +27,11 @@ body {
 }
 
 /* Header & footer */
-.site-header,
+.site-header {
+  background-color: var(--bg);              /* same as page */
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+}
 .site-footer {
   background-color: var(--bg-alt);
   border-color: var(--border);
@@ -35,6 +39,7 @@ body {
 
 /* Titles */
 .site-title,
+.site-title:visited,
 .post-title,
 .page-heading {
   color: #eeeeee;
@@ -134,6 +139,7 @@ p {
 /* Slightly larger font for body text */
 body,
 .page-content {
+  font-family: "Georgia", serif;
   font-size: 1.05rem; /* a bit bigger than default */
 }
 
