@@ -8,9 +8,9 @@ title: fauxnemics, fauxnetics, AI, cogsci, and other vices
 author: FauxNeme
 email: fauxnemic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to marshall my thoughts about AI, cognition, language & linguistics,
-  and philosophy of these things. Also to occasionally rant about things I
-  see online that I think are especially Right or Wrong(tm). Probably occasionally NSFW.
+  A place to ramble/rant about AI, cognition, language & linguistics
+  and (lord help us) philosophy thereof. Also occasional yelling about
+  Things Online that are especially Right or Wrong(tm). Also occasional NSFW.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fauxnemic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fauxnemic
